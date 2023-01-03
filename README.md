@@ -27,7 +27,7 @@ Each week **(Monday-Sunday)** you select a team and get 1 point for every win th
 
 # Technology
 
-1. PERN Stack
+1. MERN Stack
 2. Axios
 3. CSS
 4. JWT Auth
@@ -36,6 +36,9 @@ Each week **(Monday-Sunday)** you select a team and get 1 point for every win th
 # Views
 
 # Diagrams
+
+## ![Component Hierarchy Diagram](https://i.imgur.com/xxu5cuw.png)
+## ![Entity Relationship Diagram](https://i.imgur.com/Srb3dLS.png)
 
 # Credits
 
