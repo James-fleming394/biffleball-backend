@@ -13,9 +13,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(logger('dev'));
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
 app.get('/', (req, res) => {
     res.json({ message: "Server working"})
-})
+});
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
