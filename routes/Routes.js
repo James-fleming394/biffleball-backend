@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const userController = require('../controllers/UserController')
+const userController = require('../controllers/UserController');
+const pickController = require('../controllers/PicksController');
 
 
 router.get('/', (req, res) => {
@@ -11,5 +12,11 @@ router.get('/', (req, res) => {
 
 router.get('/users', userController.getUsers);
 router.post('/users/new', userController.createUser);
+
+// Picks
+
+router.get('/picks', pickController.getPicks);
+router.post('/picks/new', pickController.createPick);
+
 
 module.exports = router;
