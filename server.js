@@ -18,6 +18,8 @@ app.get('/', (req, res) => {
     res.json({ message: "Server working"})
 });
 
+app.use('/api', routes);
+
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
 });
