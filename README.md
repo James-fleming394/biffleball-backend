@@ -38,6 +38,9 @@ To run the project in your local environment, follow these steps:
 
 
 # Progress
+- [ x ] Design Document
+- [ x ] Backend Setup
+- [   ] Database Design  
 
 
 # Credits 
